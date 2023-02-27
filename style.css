@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(natureza.jpg);
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    opacity: 0.8;
+    background: black;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+ul li a:hover {
+    background: green;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+.center{
+    float: left;
+    width: 73.6%;
+    margin: 10px 180px;
+}
